@@ -6,3 +6,4 @@ Integrated DAGShortestPath, DAGLongestPath, and Metrics
 Added CSVWriter and SummaryCollector
 Implemented Main.java and tested pipeline
 Final cleanup, documentation, and run scripts
+Initial project setup: folders, pom.xml, README

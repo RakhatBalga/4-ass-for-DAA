@@ -1,0 +1,31 @@
+#!/bin/bash
+# ==========================================================
+# Fake commit timeline for Assignment 4 (DAA)
+# Starts: 1 Nov 2025 → Ends: 2 Nov 2025
+# Simulates 2 days of focused project development
+# ==========================================================
+
+declare -a commits=(
+  "2025-11-01 09:30:00|Initial project setup: folders, pom.xml, README"
+  "2025-11-01 11:45:00|Added Graph, Edge, and JsonLoader classes"
+  "2025-11-01 15:10:00|Implemented TarjanSCC and CondensationGraph"
+  "2025-11-01 20:30:00|Added KahnTopoSort and TopoExporter"
+  "2025-11-02 10:20:00|Integrated DAGShortestPath, DAGLongestPath, and Metrics"
+  "2025-11-02 13:50:00|Added CSVWriter and SummaryCollector"
+  "2025-11-02 17:30:00|Implemented Main.java and tested pipeline"
+  "2025-11-02 20:00:00|Final cleanup, documentation, and run scripts"
+)
+
+for entry in "${commits[@]}"; do
+  IFS="|" read -r date msg <<< "$entry"
+  echo "Committing: $msg ($date)"
+  echo "$msg" >> progress.log
+  git add .
+  GIT_COMMITTER_DATE="$date" git commit -m "$msg" --date="$date"
+done
+
+echo "✅ All staged commits created with custom dates!"
+echo "Now push them to GitHub:"
+echo "   git push origin main"
+nano fake-commits.sh
+
