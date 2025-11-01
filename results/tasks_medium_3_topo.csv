@@ -1,0 +1,2 @@
+Dataset,Component_Order,Task_Order,Time_ms,Queue_Pushes,Queue_Pops,InDegree_Updates
+tasks_medium_3,"[12, 14, 15, 16, 17, 11, 13, 8, 10, 3, 4, 7, 9, 2, 6, 5, 1, 0]","[0, 1, 2, 4, 5, 3, 8, 6, 7, 11, 9, 12, 10, 13, 14, 16, 15, 17]",0.026208,18,18,45

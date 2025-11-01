@@ -1,0 +1,7 @@
+Dataset,SCC_Index,SCC_Size,Vertices,Time_ms,DFS_Visits,Edges_Explored,Stack_Pops
+tasks_small_1,0,1,[5],0.029333,6,8,6
+tasks_small_1,1,1,[4],,,,
+tasks_small_1,2,1,[3],,,,
+tasks_small_1,3,1,[2],,,,
+tasks_small_1,4,1,[0],,,,
+tasks_small_1,5,1,[1],,,,

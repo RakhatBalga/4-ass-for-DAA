@@ -1,0 +1,2 @@
+Dataset,Critical_Path,Length,Time_ms,Relaxations,Successful_Relaxations
+tasks_small_2,"[7, 6, 3, 1, 0]",24,0.008583,12,11

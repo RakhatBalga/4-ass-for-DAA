@@ -1,0 +1,2 @@
+Dataset,Source,Destination,Distance,Path,Time_ms,Relaxations,Successful_Relaxations
+tasks_medium_1,6,0,4,"[6, 0]",0.005084,9,6
