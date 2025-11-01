@@ -8,3 +8,4 @@ Implemented Main.java and tested pipeline
 Final cleanup, documentation, and run scripts
 Initial project setup: folders, pom.xml, README
 Added Graph, Edge, and JsonLoader classes
+Implemented TarjanSCC and CondensationGraph
