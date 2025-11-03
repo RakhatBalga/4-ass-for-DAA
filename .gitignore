@@ -1,4 +1,18 @@
-# macOS system files
+# Java build output
+target/# macOS system files
+.DS_Store
+
+# IDE project files
+.idea/
+
+# Screenshots and temporary images
+*.png
+
+# Fake commit scripts
+fake-commits.sh*
+
+# Java build output
+target/# macOS system files
 .DS_Store
 
 # IDE project files
