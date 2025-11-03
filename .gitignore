@@ -1,4 +1,8 @@
-# Java build output
+# Ignore all PNG files except screenshots
+*.png
+!screenshot1.png
+!screenshot2.png
+!screenshot3.png# Java build output
 target/# macOS system files
 .DS_Store
 
