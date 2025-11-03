@@ -289,6 +289,7 @@ The program automatically generates:
 - **Documentation**: Javadoc comments on all public classes and methods
 - **Code style**: Clear variable names, consistent formatting
 - **Modularity**: Separation of concerns, reusable components
-- **Error handling**: Graceful handling of invalid inputs![Screenshot 2025-11-02 at 20.15.18.png](Screenshot%202025-11-02%20at%2020.15.18.png)
-![Screenshot 2025-10-26 at 18.26.43.png](Screenshot%202025-10-26%20at%2018.26.43.png)
-![Screenshot 2025-10-26 at 18.26.43.png](Screenshot%202025-10-26%20at%2018.26.43.png)
+- **Error handling**: Graceful handling of invalid inputs!
+![Screenshot 2025-11-03 at 11.34.52.png](Screenshot%202025-11-03%20at%2011.34.52.png)
+![Screenshot 2025-11-03 at 11.34.42.png](Screenshot%202025-11-03%20at%2011.34.42.png)
+![Screenshot 2025-11-03 at 11.34.31.png](Screenshot%202025-11-03%20at%2011.34.31.png)
