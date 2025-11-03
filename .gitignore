@@ -1,4 +1,14 @@
-target/
+# macOS system files
+.DS_Store
+
+# IDE project files
+.idea/
+
+# Screenshots and temporary images
+*.png
+
+# Fake commit scripts
+fake-commits.sh*target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
